@@ -1,0 +1,192 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700,600");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+
+a {
+  text-decoration: none;
+}
+
+
+/*本文以下*/
+html{
+    background-color: #1E679B;
+}
+
+body{
+    justify-content: center;
+}
+
+/*整體內容置中*/
+.introducepage{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
+    justify-content: center;
+    display: flex; 
+}
+
+/*header處平行*/
+.inc{
+    display: flex;
+ }
+
+.inner{
+    margin-top: 105px;
+    margin: 40px;
+}
+
+.inner img{
+    height:84px;
+    width: 172px;
+}
+
+.sign {
+    width: 109px;
+    height: 45px;
+    padding-top: 80px ;
+    padding-left: 20px;
+}
+
+.sign .simg{
+    width: 109px;
+    height: 45px;
+}
+
+
+
+.introducepage .log_a {
+    all: unset;
+    box-sizing: border-box;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    padding: 90px 0px 60px 60px;
+}
+
+.introducepage .log_a a{
+    color: #ffffff;
+}
+
+
+.gnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    margin-top: 45px;
+}
+
+.gnav ul li {
+    width: 186px;
+    height: 83px;
+}
+
+.gnav ul li a {
+    display: block;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 186px;
+    height: 83px;
+}
+
+.gnav ul .point a {
+    background-image: url('../img/point_button.png');
+    right: 110px;
+    top: 410px;
+    background-size: 186px 83px; 
+}
+  
+.gnav ul .test a {
+    background-image: url('../img/test_button.png');
+    right: 410px;
+    top: 410px;
+    background-size: 186px 83px; 
+}
+  
+.gnav ul .introduce a{
+    background-image: url('../img/introduce_button.png');
+    right: 700px;
+    top: 410px;
+    background-size: 186px 83px; 
+}
+  
+#container{
+    width: 1126px;
+    height: 550px;
+    background-color: #ffffff;
+    border-radius: 60px;
+    box-shadow: 5px 4px 4px #00000040;
+    margin: 0 auto; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+#container .ctn_bg{
+    padding-top: 10px;
+}
+
+#container .ctn_bg .til{
+    font-weight: 700;
+    color: #1E679B;
+    font-size: 24px;
+    white-space: nowrap;
+    font-family: "Inter", Helvetica;
+    line-height: normal;
+    text-align: center;
+}
+
+#container .txt {
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    left: 160px;
+    width: 780px;
+}
+#container .txt .txt_img {
+    padding-right: 80px;
+}
+
+#container .txt .txt_img img{
+    width: 360px;
+    height: 360px;
+}
+
+#container .txt .txt_p{
+    width: 356px;
+    letter-spacing: 1px;
+}
+
+#container .txt .txt_p .txt_p1{
+    margin-bottom: 30px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+}
+
+footer p{
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
